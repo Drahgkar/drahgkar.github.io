@@ -1,5 +1,9 @@
 source "https://rubygems.org"
 gemspec
+
+# Adding github-pages gem
+gem "github-pages", "~> 228", group: :jekyll_plugins
+
 # Added at 2023-03-31 22:49:04 -0600 by havok:
 gem "kramdown-parser-gfm", "~> 1.1"
 
