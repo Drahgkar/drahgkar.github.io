@@ -1,0 +1,42 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Setup
+title:            Packetsneaker Security
+tagline:          Information Security In A Turbulent World.
+keywords:	  cybersecurity, security, information security
+description:      "Information Security In A Turbulent World."
+url:              https://packetsneaker.github.io
+baseurl:          /
+                  # the optional subpath of your site, e.g. "/my-jekyll-site/"
+                  # This will apply to all pages in your Jekyll site.
+
+# Set default header image
+header:	no
+header_sm: public/images/banner-small.jpg
+header_med: public/images/banner-med.jpg
+header_large: public/images/banner.jpg
+header_xl: public/images/banner-xl.jpg
+
+author:
+  name:           Chris Burch
+  url:            
+
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/my-jekyll-site/page:num' if you want to move your index pages
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+# Exclude our ruby stuff
+exclude: [.bundle, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml, image_optim_cache.yml]
+
+# Custom vars
+#version:            2.0.1
+
+#github:
+#  repo:             https://github.com/drahgkar

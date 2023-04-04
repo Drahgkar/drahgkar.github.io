@@ -1,0 +1,10 @@
+source "https://rubygems.org"
+gemspec
+# Added at 2023-03-31 22:49:04 -0600 by havok:
+gem "kramdown-parser-gfm", "~> 1.1"
+
+# Added at 2023-03-31 22:49:18 -0600 by havok:
+gem "webrick", "~> 1.8"
+
+# Added at 2023-04-01 09:11:08 -0600 by havok:
+gem "faraday-retry", "~> 2.1"
