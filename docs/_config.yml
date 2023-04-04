@@ -8,7 +8,7 @@ tagline:          Information Security In A Turbulent World.
 keywords:	  cybersecurity, security, information security
 description:      "Information Security In A Turbulent World."
 url:              https://drahgkar.github.io
-baseurl:          /
+baseurl:          /drahgkar.github.io
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
                   # This will apply to all pages in your Jekyll site.
 
